@@ -1,0 +1,179 @@
+{
+    "output_format": "mp4",
+    "width": 1280,
+    "height": 720,
+    "snapshot_time": 1.28,
+    "elements": [
+      {
+        "id": "a7152516-ea60-40aa-8f59-cfefa3751089",
+        "name": "Scenes",
+        "type": "composition",
+        "track": 1,
+        "elements": [
+          {
+            "id": "68165505-c8b5-488c-a569-1c74ab92b917",
+            "name": "Intro",
+            "type": "composition",
+            "track": 1,
+            "time": 0,
+            "elements": [
+              {
+                "id": "bc613b3c-f256-4fe5-ae3b-ba1e20a9dc11",
+                "name": "Image-1",
+                "type": "image",
+                "track": 1,
+                "time": 0,
+                "dynamic": true,
+                "color_overlay": "rgba(0,0,0,0.15)",
+                "animations": [
+                  {
+                    "easing": "linear",
+                    "type": "pan",
+                    "end_x": "50%",
+                    "scope": "element",
+                    "track": 0,
+                    "start_x": "50%",
+                    "end_scale": "100%",
+                    "start_scale": "120%"
+                  }
+                ],
+                "source": "99bac41d-843f-46fb-ab15-246aee6d68bd"
+              },
+              {
+                "id": "0cf1a646-4a53-4483-bea9-9ce8eff9101c",
+                "name": "Subtitles-1",
+                "type": "text",
+                "track": 2,
+                "time": 0,
+                "width": "86.66%",
+                "height": "37.71%",
+                "x_alignment": "50%",
+                "y_alignment": "50%",
+                "fill_color": "#ffffff",
+                "stroke_color": "#333333",
+                "stroke_width": "1.05 vmin",
+                "font_family": "Inter",
+                "font_weight": "700",
+                "font_size": "8 vmin",
+                "background_color": "rgba(255,255,255,0.2)",
+                "background_x_padding": "26%",
+                "background_y_padding": "7%",
+                "background_border_radius": "28%",
+                "transcript_source": "f18e6afb-3fe5-4ad2-95d4-5050f9b413ba",
+                "transcript_effect": "highlight",
+                "transcript_color": "#ff5900"
+              },
+              {
+                "id": "f18e6afb-3fe5-4ad2-95d4-5050f9b413ba",
+                "name": "Voiceover-1",
+                "type": "audio",
+                "track": 3,
+                "time": 0,
+                "dynamic": true,
+                "source": "",
+                "provider": "openai model=tts-1 voice=onyx"
+              }
+            ]
+          },
+          {
+            "id": "dce10f14-514b-4152-b6b9-4c8bf6e709ee",
+            "name": "Auto1",
+            "type": "composition",
+            "track": 1,
+            "animations": [
+              {
+                "time": 2.36,
+                "duration": 0.74,
+                "transition": true,
+                "type": "film-roll",
+                "direction": "left"
+              }
+            ],
+            "elements": [
+              {
+                "id": "01d9661b-22fd-4905-a1ab-274603f66433",
+                "name": "Image-2",
+                "type": "image",
+                "track": 1,
+                "time": 0,
+                "dynamic": true,
+                "color_overlay": "rgba(0,0,0,0.15)",
+                "animations": [
+                  {
+                    "easing": "linear",
+                    "type": "pan",
+                    "end_x": "50%",
+                    "scope": "element",
+                    "start_x": "50%",
+                    "end_scale": "120%",
+                    "start_scale": "100%"
+                  }
+                ],
+                "source": "91ae53bc-7aa5-44f9-84e9-b4b3bb121845"
+              },
+              {
+                "id": "78518b72-3de8-451b-afa1-e21832e69777",
+                "name": "Video-2",
+                "type": "video",
+                "track": 2,
+                "time": 0,
+                "duration": null,
+                "dynamic": true,
+                "loop": true
+              },
+              {
+                "id": "d2e748cb-ecd9-4868-9b07-bce65ada04ef",
+                "name": "Subtitles-2",
+                "type": "text",
+                "track": 3,
+                "time": 0,
+                "y": "78.2173%",
+                "width": "86.66%",
+                "height": "37.71%",
+                "x_alignment": "50%",
+                "y_alignment": "50%",
+                "fill_color": "#ffffff",
+                "stroke_color": "#333333",
+                "stroke_width": "1.05 vmin",
+                "font_family": "Inter",
+                "font_weight": "700",
+                "font_size": "8 vmin",
+                "background_color": "rgba(255,255,255,0.2)",
+                "background_x_padding": "26%",
+                "background_y_padding": "7%",
+                "background_border_radius": "28%",
+                "transcript_source": "e9b8ae82-f675-499f-a4d8-b8c1e1117a65",
+                "transcript_effect": "highlight",
+                "transcript_color": "#ff5900"
+              },
+              {
+                "id": "e9b8ae82-f675-499f-a4d8-b8c1e1117a65",
+                "name": "Voiceover-2",
+                "type": "audio",
+                "track": 4,
+                "time": 0,
+                "dynamic": true,
+                "source": "",
+                "provider": "openai model=tts-1 voice=onyx"
+              }
+            ]
+          },
+          {
+            "id": "f4af81cd-2773-42a1-be26-c36f14783455",
+            "name": "Outro",
+            "type": "composition",
+            "track": 1,
+            "elements": [
+              {
+                "id": "4eed6919-31a5-47c0-9a54-55c5edf754f2",
+                "name": "Outro",
+                "type": "video",
+                "track": 1,
+                "source": "4bac8860-ead4-4c46-ab60-150260c52f6e"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
